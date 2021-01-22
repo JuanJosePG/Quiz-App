@@ -1,0 +1,45 @@
+.game-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 40rem;
+    background-color: var(--cultured);
+    box-shadow: 0.3rem 0.5rem 1rem var(--indigo-blue);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.question{
+    padding: 0 2rem;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 1rem;
+    width: 70%;
+    font-size: 1.8rem;
+    border: 0.1rem solid var(--indigo-blue);
+    letter-spacing: 1px;
+    border-radius: 1rem;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0.5rem var(--indigo-blue);
+    transform: translateY(-0.2rem);
+    transition: transform 0.15s;
+}
+
+.choice-option{
+    padding: 1rem 2rem;
+    background-color: var(--indigo-blue);
+    color: var(--white);
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.choice-text{
+    padding: 1rem;
+}

@@ -15,7 +15,6 @@
 }
 
 body {
-  /* background-color: var(--cultured); */
   color: var(--indigo-blue);
   font-size: Arial,  Helvetica,  sans-serif;
 }
@@ -44,7 +43,6 @@ h3 {
   align-items: center;
   max-width: 60rem;
   margin: 0 auto;
-  /* background-color: blue; */
 }
 
 .home-container {
