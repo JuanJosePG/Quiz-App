@@ -63,6 +63,46 @@ let questions = [
         choice3: "Todos menos el murcielago de Wuhan",
         choice4: "5.000",
         answer: 2
+    },
+    {
+        question: "Si tengo diez peces en la pecera y tres se me ahogan, ¿cuantos quedan?",
+        choice1: "Ninguno",
+        choice2: "7",
+        choice3: "10",
+        choice4: "5",
+        answer: 3
+    },
+    {
+        question: "Si un gallo pone un huevo en lo alto de un campanario… ¿hacia qué lado caerá?",
+        choice1: "Hacia delante",
+        choice2: "Hacia un lado",
+        choice3: "Ninguno",
+        choice4: "Hacia atrás",
+        answer: 3
+    },
+    {
+        question: "¿Cúal es la única persona que nunca ha perdido un partido de fútbol?",
+        choice1: "El árbitro",
+        choice2: "Los espectadores",
+        choice3: "Er beti, ole ahí mi beti bueno",
+        choice4: "Messi",
+        answer: 3
+    },
+    {
+        question: "¿Cuál es el día más largo de la semana?",
+        choice1: "Lunes",
+        choice2: "Miercoles",
+        choice3: "Todos",
+        choice4: "Ninguno",
+        answer: 2
+    },
+    {
+        question: "Si durante una carrera adelantas a quien va segundo, ¿en qué posición estás?",
+        choice1: "Primero",
+        choice2: "Segundo",
+        choice3: "Tercero",
+        choice4: "Último",
+        answer: 2
     }
 ]
 
