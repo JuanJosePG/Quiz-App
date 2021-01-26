@@ -1,5 +1,7 @@
 let question = document.getElementById("question");
 let choices = Array.from(document.getElementsByClassName("choice-element"));
+let numberQuestion = document.getElementById("score");
+
 
 // Variables
 let currentQuestion = {};
@@ -116,7 +118,7 @@ let questions = [
 
 // Constants
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 7;
+const MAX_QUESTIONS = 5;
 
 startGame = () => {
     questionCounter = 0;
@@ -132,6 +134,9 @@ getNewQuestion = () => {
     }
 
     questionCounter++;
+
+    numberQuestion.innerText = `${questionCounter}/${MAX_QUESTIONS}`
+
     let questionIndex = Math.floor(Math.random()*availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;

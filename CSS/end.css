@@ -1,0 +1,16 @@
+.end-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 30rem;
+    background-color: var(--cultured);
+    box-shadow: 0.3rem 0.5rem 1rem var(--indigo-blue);
+    border-radius: 1rem;
+}
+
+.end-title{
+    text-align: center;
+    margin: 2rem auto;
+}

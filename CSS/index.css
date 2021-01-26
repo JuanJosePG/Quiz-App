@@ -57,6 +57,16 @@ h3 {
   border-radius: 1rem;
 }
 
+.home-container > h4{
+  margin-top: 2rem;
+}
+
+.link{
+  text-decoration: none;
+  color: var(--red-salsa);
+  font-weight: bold;
+}
+
 /* Buttons */
 .btn{
   font-size: 1.8rem;
@@ -81,9 +91,9 @@ h3 {
   letter-spacing: 3px;
 }
 
-.btn[disabled]:hover{
+/* .btn[disabled]:hover{
   cursor: not-allowed;
   transform: none;
   box-shadow: none;
   color: var(--dark-grey);
-}
+} */
