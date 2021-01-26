@@ -86,7 +86,7 @@ let questions = [
         choice2: "Los espectadores",
         choice3: "Er beti, ole ahí mi beti bueno",
         choice4: "Messi",
-        answer: 3
+        answer: 1
     },
     {
         question: "¿Cuál es el día más largo de la semana?",
@@ -103,12 +103,20 @@ let questions = [
         choice3: "Tercero",
         choice4: "Último",
         answer: 2
+    },
+    {
+        question: "Antes que el Everest fuera descubierto, ¿cuál era la montaña más alta del mundo?",
+        choice1: "Kilimanjaro",
+        choice2: "Teide",
+        choice3: "Everest",
+        choice4: "Olimpo",
+        answer: 3
     }
 ]
 
 // Constants
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 6;
+const MAX_QUESTIONS = 7;
 
 startGame = () => {
     questionCounter = 0;

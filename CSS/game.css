@@ -11,9 +11,24 @@
     text-align: center;
 }
 
+.hud{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+}
+
+.hud-text-div{
+    text-align: center;
+}
+
+.hud-score{
+    margin: auto 0;
+}
+
 .question{
     min-height: 11rem;
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 0rem 2rem 1rem 2rem;
     display: flex;
     align-items: center;
 }
